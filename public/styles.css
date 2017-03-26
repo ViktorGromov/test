@@ -1,0 +1,355 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border:none;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+
+a:link {
+	color: #097E94;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #097E94;
+}
+
+body {
+	
+	background: #E2FAFE url(images/back_all.gif) repeat-x;
+	color: #383838;
+}
+
+#content
+{
+	width: 977px;
+	margin: 0px auto;
+	background: url(images/header_back.jpg) no-repeat;
+}
+
+#main
+{
+width: 896px;
+background: #EBF8FA;
+border: 1px solid #0BD7F6;
+margin-bottom: 10px;
+}
+
+#table_back
+{
+background: url(images/table_back.gif) repeat-y;
+}
+
+#back
+{
+width: 896px;
+margin: 0px auto;
+}
+
+#header {
+	height: 148px;
+	text-align: right;
+}
+
+#logo {
+
+width: 896px;
+height: 58px;
+text-align: left;
+padding-left: 20px;
+padding-top: 30px;
+}
+
+
+#logo a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size: 18px;
+	color: #097E94;
+}
+#logo H2 a
+{
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+
+#menu
+{
+width: 896px;
+height: 51px;
+padding-top: 5px
+}
+
+#menu ul {
+	list-style: none;	
+}
+
+#menu li {
+	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 173px;
+	height: 41px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 5px;
+	text-transform: uppercase;
+	background: url(images/button.gif) no-repeat;
+	margin-left: 5px;
+}
+
+#menu a:hover {
+	width: 173px;
+    height: 41px;
+	padding-top: 5px;
+	color: #DEEBBC;
+	text-decoration: underline;
+	background: url(images/button_r.gif) no-repeat;
+}
+
+
+
+
+#right
+{
+	width: 276px;
+	float: right;
+	margin-right: 5px;
+}
+
+#right H3
+{
+	width: 276px;
+	height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-top: 5px;
+	color: #ffffff;
+	background: url(images/title.gif) no-repeat;
+}
+
+#right ul {
+	list-style: none;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+#right .right_back
+{
+	background: url(images/title_back.gif) no-repeat;
+}
+
+#right .right_bottom
+{
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+#right li  {
+	padding-left: 0px;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+
+}
+
+
+#right a {
+	color: #097E94;
+}
+#right a:visited {
+	color: #097E94;
+}
+
+#right p
+{
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+.bot
+{
+	padding: 10px;
+}
+
+#calendar {
+	padding: 20px 10px 20px 10px;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #696969;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #ffffff
+}
+
+#left
+{
+	width: 597px;
+	padding-left: 5px;
+}
+
+
+#left H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color:#FF0000;
+	background: url(images/h2.gif) no-repeat;
+	width: 552px;
+	height: 43px;
+	padding-top: 5px;
+	padding-left: 50px;
+}
+
+#left H4 a
+{
+	color: #ffffff;
+    text-decoration: none;
+}
+
+#left a
+{
+	color: #097E94;
+    text-decoration: none;
+}
+
+#left p {
+	margin: 5px;
+	padding: 0;
+	text-indent:15px;
+	text-align:justify;
+}
+
+#left h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #097E94;
+}
+
+#left ol, #left ul
+{
+	margin-left: 30px;
+}
+
+
+
+#footer {
+	height: 60px;
+	clear: both;
+	padding-top: 10px;
+	background: url(images/footer.gif) repeat-x top;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #4A2011;
+}
+
+#footer a {
+	color: #4A2011;
+}
+
+
+#left img {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+
+
+#registraciya {
+	float: none;
+	padding-left: 15px;
+}
+	
+
+hr {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid ##EBEBEB;
+    height: 1px;
+    width: 100%;
+}
+
+
+
+
+/* fotogallery */
+
+
+
+
+#fotogallery img {
+	padding:0;
+}
+
+#left h2 {
+	color: #13A4C0;
+	font-size: 16px;
+	padding-left:20px;
+}
+
+#gallery1 img {
+	margin:5px;
+	border:3px solid #fff;
+	padding-right:0px;
+	padding-bottom:0px;
+}
+
+#gallery1 a.photo:hover img {
+	border:3px solid #13A4C0;
+}
